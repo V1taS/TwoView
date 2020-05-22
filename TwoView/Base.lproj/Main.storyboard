@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -15,33 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ya8-aS-VsB">
-                                <rect key="frame" x="8" y="457" width="398" height="405"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2re-lS-EQ6">
-                                <rect key="frame" x="8" y="44" width="398" height="405"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yiv-9i-TPW">
+                                <rect key="frame" x="16" y="52" width="382" height="397"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="9LU-hu-vVJ"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="280" id="vXK-ai-13r">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="100"/>
-                                        <variation key="heightClass=compact-widthClass=regular" constant="100"/>
-                                    </constraint>
-                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8vX-ZY-AFl">
+                                <rect key="frame" x="16" y="457" width="382" height="397"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="ya8-aS-VsB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="9aS-25-eG3"/>
-                            <constraint firstItem="ya8-aS-VsB" firstAttribute="top" secondItem="2re-lS-EQ6" secondAttribute="bottom" constant="8" id="Axw-G2-s47"/>
-                            <constraint firstItem="2re-lS-EQ6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="QzX-XU-HOc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2re-lS-EQ6" secondAttribute="trailing" constant="8" id="afz-of-Bzl"/>
-                            <constraint firstItem="2re-lS-EQ6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dTA-Q3-jwW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ya8-aS-VsB" secondAttribute="trailing" constant="8" id="ng2-fX-skX"/>
-                            <constraint firstItem="2re-lS-EQ6" firstAttribute="width" secondItem="ya8-aS-VsB" secondAttribute="width" id="vPD-dV-0FB"/>
-                            <constraint firstItem="2re-lS-EQ6" firstAttribute="height" secondItem="ya8-aS-VsB" secondAttribute="height" id="xyN-aK-VzM"/>
-                            <constraint firstItem="ya8-aS-VsB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="yTC-oU-owB"/>
+                            <constraint firstItem="Yiv-9i-TPW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="CR2-FN-eef"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yiv-9i-TPW" secondAttribute="trailing" constant="16" id="VDZ-aK-piS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8vX-ZY-AFl" secondAttribute="bottom" constant="8" id="ZyB-zU-tIB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8vX-ZY-AFl" secondAttribute="trailing" constant="16" id="fZq-IL-hxW"/>
+                            <constraint firstItem="8vX-ZY-AFl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gMY-Qp-ZtM"/>
+                            <constraint firstItem="Yiv-9i-TPW" firstAttribute="height" secondItem="8vX-ZY-AFl" secondAttribute="height" id="pHz-uw-jK7"/>
+                            <constraint firstItem="8vX-ZY-AFl" firstAttribute="top" secondItem="Yiv-9i-TPW" secondAttribute="bottom" constant="8" id="pZD-9Z-3CC"/>
+                            <constraint firstItem="Yiv-9i-TPW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="pdB-R2-S9t"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
